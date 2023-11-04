@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CouponsView.vue CouponsView should render 1`] = `
+<main>
+  <h1>Coupons</h1>
+  <section class="coupons-stats">
+    <div>There's a total of 3 coupons</div>
+    <div>
+      <h3>For the "percent-off" coupons, we have the following statistics:</h3>
+      <ul>
+        <li>Count: 4</li>
+        <li>Minimum Discount: 1%</li>
+        <li>Maximum Discount: 5%</li>
+        <li>Average Discount: 8%</li>
+      </ul>
+    </div>
+    <div>
+      <h3>For the "dollar-off" coupons, we have the following statistics:</h3>
+      <ul>
+        <li>Count: 5</li>
+        <li>Minimum Discount: 55$</li>
+        <li>Maximum Discount: 234$</li>
+        <li>Average Discount: 6$</li>
+      </ul>
+    </div>
+    <div>
+      <h3>For each retailer here are the following statistics:</h3>
+      <div>
+        <h4>macys</h4>
+        <div>
+          <h5>Percent Off Discounts</h5>
+          <ul>
+            <li>Coupons: 1</li>
+            <li>Minimum Discount: 25%</li>
+            <li>Maximum Discount: 25%</li>
+            <li>Average Discount: 25.00%</li>
+          </ul>
+        </div>
+        <div>
+          <h5>Dollar Off Discounts</h5>
+          <ul>
+            <li>Coupons: 9</li>
+            <li>Minimum Discount: 10%</li>
+            <li>Maximum Discount: 50%</li>
+            <li>Average Discount: 17.22%</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h4>nike</h4>
+        <div>
+          <h5>Percent Off Discounts</h5>
+          <ul>
+            <li>Coupons: 1</li>
+            <li>Minimum Discount: 0%</li>
+            <li>Maximum Discount: 0%</li>
+            <li>Average Discount: 0.00%</li>
+          </ul>
+        </div>
+        <div>
+          <h5>Dollar Off Discounts</h5>
+          <ul>
+            <li>Coupons: 2</li>
+            <li>Minimum Discount: 150%</li>
+            <li>Maximum Discount: 150%</li>
+            <li>Average Discount: 75.00%</li>
+          </ul>
+        </div>
+      </div>
+      <div>
+        <h4>nordstrom</h4>
+        <div>
+          <h5>Percent Off Discounts</h5>
+          <ul>
+            <li>Coupons: 1</li>
+            <li>Minimum Discount: 0%</li>
+            <li>Maximum Discount: 0%</li>
+            <li>Average Discount: 0.00%</li>
+          </ul>
+        </div>
+        <div>
+          <h5>Dollar Off Discounts</h5>
+          <ul>
+            <li>Coupons: 3</li>
+            <li>Minimum Discount: 75%</li>
+            <li>Maximum Discount: 150%</li>
+            <li>Average Discount: 75.00%</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="coupons-graph"></section>
+</main>
+`;

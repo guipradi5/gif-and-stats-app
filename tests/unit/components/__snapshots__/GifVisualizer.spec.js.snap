@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`GifVisualizer.vue GifVisualizer should render 1`] = `
+<div class="gif-visualizer">
+  <div class="gif-visualizer__wrapper"><img src="https://gif.com/gif"></div>
+  <div class="gif-visualizer__footer">
+    <h3 class="gif-visualizer__description"></h3>
+    <div class="gif-visualizer__data">
+      <div class="gif-visualizer__data-size"><img src=""> 0.03 Mb </div>
+      <div class="gif-visualizer__data-clicks"><img src=""> 5</div>
+    </div>
+  </div>
+</div>
+`;

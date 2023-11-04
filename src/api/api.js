@@ -1,4 +1,4 @@
-import { COUPON_TYPES, getRetailersData, getTypeData, getTypeQuantity } from "@/assets/js/coupons";
+import { COUPON_TYPES, getTypeQuantity, getTypeData, getRetailersData } from "@/assets/js/coupons";
 import axios from "axios";
 
 export const getGifs = async () => {

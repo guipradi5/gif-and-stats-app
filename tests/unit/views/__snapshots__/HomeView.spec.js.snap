@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeView.vue HomeView should render 1`] = `
+<main>
+  <aside class="side-bar">
+    <h2>Top 8 gifs</h2>
+    <ul class="side-bar__gif-list">
+      <gif-list-element-stub element="[object Object]"></gif-list-element-stub>
+      <gif-list-element-stub element="[object Object]"></gif-list-element-stub>
+      <gif-list-element-stub element="[object Object]"></gif-list-element-stub>
+    </ul>
+  </aside>
+  <section class="main-body">
+    <div class="gif-wrapper">
+      <!--v-if-->
+    </div>
+  </section>
+</main>
+`;

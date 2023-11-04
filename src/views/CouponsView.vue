@@ -57,7 +57,6 @@
 import { getCouponsData } from "@/api/api";
 import { onMounted, ref } from "vue";
 
-const couponsCount = ref(0)
 const couponsData = ref(null)
 
 onMounted(async () => {
@@ -65,7 +64,6 @@ onMounted(async () => {
 })
 
 </script>
-
 
 <style scoped lang="scss">
 main {
