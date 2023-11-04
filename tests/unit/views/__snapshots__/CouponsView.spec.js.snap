@@ -6,7 +6,7 @@ exports[`CouponsView.vue CouponsView should render 1`] = `
   <section class="coupons-stats">
     <div>There's a total of 3 coupons</div>
     <div>
-      <h3>For the "percent-off" coupons, we have the following statistics:</h3>
+      <h3> For the "percent-off" coupons, we have the following statistics: </h3>
       <ul>
         <li>Count: 4</li>
         <li>Minimum Discount: 1%</li>
