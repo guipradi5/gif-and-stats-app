@@ -56,7 +56,7 @@ main {
     border-right: white 1px solid;
     
     h2{
-      padding: 15px;
+      padding: 30px;
       margin: 0;
     }
 

@@ -19,8 +19,12 @@ export default {
 
 <style scoped lang="scss">
 li {
-  padding: 10px 20px;
+  padding: 10px 30px;
   list-style: none;
   cursor: pointer;
+
+  &:hover{
+    background: rgba(0,0,0,0.2);
+  }
 }
 </style>
