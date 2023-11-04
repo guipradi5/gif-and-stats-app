@@ -1,8 +1,20 @@
+import { COUPON_TYPES, getRetailersData, getTypeData, getTypeQuantity } from "@/assets/js/coupons";
 import axios from "axios";
 
 export const getGifs = async () => {
     const result = await axios.get("https://g.tenor.com/v1/search?q=excited&key=LIVDSRZULELA&limit=8")
     return result.data.results
+}
+
+export const getCouponsData = async () => {
+    const result = (await axios.get("/json/coupons.json")).data
+    Object.keys(COUPON_TYPES).forEach(type => {
+        result.typeCount = {...result.typeCount, [type]: getTypeQuantity(result.coupons, COUPON_TYPES[type])}
+    })
+    result.percentOffData = getTypeData(result.coupons, COUPON_TYPES.percentOff)
+    result.dollarOffData = getTypeData(result.coupons, COUPON_TYPES.dollarOff)
+    result.retailers = getRetailersData(result.coupons)
+    return result
 }
 
 /* 
