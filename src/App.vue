@@ -10,24 +10,24 @@
 </template>
 
 <style lang="scss">
-body{
+body {
   background: $backgroundColor;
   color: $textColor;
   font-family: Ubuntu;
   margin: 0;
   padding-bottom: 30px;
 
-  .top-bar{
+  .top-bar {
     padding: $topBarVerticalPadding 30px;
     height: $topBarHeight;
     box-shadow: $shadow;
     margin-bottom: $topBarBottomMargin;
   }
 
-  h1{
-    margin-top:0;
+  h1 {
+    margin-top: 0;
   }
-  
+
   a {
     color: $textColor;
   }

@@ -7,8 +7,8 @@ module.exports = defineConfig({
     loaderOptions: {
       sass: {
         additionalData: `@import "@/assets/constants.scss"; 
-        @import "@/assets/fonts/fonts.scss";`
-      }
-    }
-  }
+        @import "@/assets/fonts/fonts.scss";`,
+      },
+    },
+  },
 });

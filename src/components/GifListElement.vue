@@ -5,16 +5,16 @@
 <script setup>
 import { ref, defineProps, defineEmits } from "vue";
 
-const props = defineProps(["element"])
-const element = ref(props.element)
+const props = defineProps(["element"]);
+const element = ref(props.element);
 
-const emit = defineEmits(["select"])
+const emit = defineEmits(["select"]);
 </script>
 
 <script>
 export default {
-  name: "GifListElement"
-}
+  name: "GifListElement",
+};
 </script>
 
 <style scoped lang="scss">
@@ -23,8 +23,8 @@ li {
   list-style: none;
   cursor: pointer;
 
-  &:hover{
-    background: rgba(0,0,0,0.2);
+  &:hover {
+    background: rgba(0, 0, 0, 0.2);
   }
 }
 </style>
