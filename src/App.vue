@@ -2,8 +2,7 @@
   <div class="top-bar">
     <h1>Guillermo's App</h1>
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Gifs</router-link> |
     </nav>
   </div>
   <router-view />
@@ -15,11 +14,17 @@ body{
   color: $textColor;
   font-family: Ubuntu;
   margin: 0;
+  padding-bottom: 30px;
 
   .top-bar{
-    padding: 15px 30px;
+    padding: $topBarVerticalPadding 30px;
+    height: $topBarHeight;
     box-shadow: $shadow;
-    margin-bottom: 50px;
+    margin-bottom: $topBarBottomMargin;
+  }
+
+  h1{
+    margin-top:0;
   }
 
   a {
