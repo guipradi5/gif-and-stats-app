@@ -3,6 +3,7 @@
     <h1>Guillermo's App</h1>
     <nav>
       <router-link to="/">Gifs</router-link> |
+      <router-link to="/coupons">Coupons</router-link>
     </nav>
   </div>
   <router-view />
@@ -26,7 +27,7 @@ body{
   h1{
     margin-top:0;
   }
-
+  
   a {
     color: $textColor;
   }
