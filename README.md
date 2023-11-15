@@ -1,4 +1,4 @@
-# peng-guillermo
+# gif-and-stats-app
 
 Little technical test I made. 
 A little vue application that fetches gifs from an API call, renders them in a a list and when they are clicked on, the gif in question is shown on the right.
